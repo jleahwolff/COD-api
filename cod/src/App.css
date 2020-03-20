@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color:white;
 }
 
 .title{
@@ -54,17 +55,24 @@
 .all-stats{
   display:flex;
   justify-content: space-evenly;
-
 }
 
 .headers{
   color: rgb(102, 111, 126);
   font-size: 1.2rem;
   flex-direction: row;
+  font-weight: 500;
+  line-height: .5rem;
 }
 
-h3, h4{
+h3{
+  color: rgb(102, 111, 126);
+  font-weight: 500;
+}
+
+h4{
   color: rgb(135, 148, 167);
+  font-weight: 500;
 }
 
 button{
@@ -82,4 +90,15 @@ button{
   text-decoration: none;
   color: rgb(102, 111, 126);
   padding: 1rem;
+}
+
+.icon{
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+  font-size: 5rem;
+  border-radius: 5rem;
+  width:25%;
+  margin: 1.2rem;
+  align-items: center;
+  margin: 0 auto;
+  border: solid .1rem lightcyan;
 }

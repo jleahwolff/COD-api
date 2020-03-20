@@ -12,7 +12,7 @@ function App() {
       <div className="title">
       <h1 className="bold">Dashboard</h1>
       <div className="dash-title">
-      <h4 className="highlight">Tuesday ▪ </h4> <h4> 16 March 2020</h4>
+      <h4 className="highlight">Tuesday</h4> <h4 className="highlight"> ▪ </h4><h4> 16 March, 2020</h4>
       </div>
       <div className="acct-title">
       <h2 className="blue-bold">Accounts</h2>
