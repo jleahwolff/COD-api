@@ -4,8 +4,8 @@
 
 .title{
   flex-direction: column;
-  width: 20vw;
-  background-color: lightgray;
+  width: 30vw;
+  background-color:#E0E5EC;
   padding:2rem;
 }
 
@@ -16,38 +16,70 @@
 }
 
 .bold{
-  font-weight: 800;
+  font-weight: 700;
   text-align: left;
+  color: rgb(65, 71, 82);
+  margin-bottom: .2rem;
 }
 
 .highlight{
-  color: hotpink;
+  color: rgb(167, 89, 128);
 }
 
 .acct-title{
   display: flex;
   justify-content: space-between;
   flex-direction:row;
-
+  width: 90%;
+  align-items:center;
+  margin-bottom: 1rem;
 }
 
 .blue-bold{
-  color:navy;
-  font-weight: 800;
+  color:rgb(75, 82, 119);
+  font-weight: 700;
 }
 
 .acct-card{
-  background-color: white;
+  background-color:#E0E5EC;
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
   border-radius: .5rem;
   width: 90%;
   justify-content: center;
   padding: .5rem;
-  margin-bottom:1rem;
+  margin-bottom: 3rem;
+}
+
+.all-stats{
+  display:flex;
+  justify-content: space-evenly;
+
 }
 
 .headers{
-  display:flex;
-  justify-content: space-evenly;
+  color: rgb(102, 111, 126);
+  font-size: 1.2rem;
   flex-direction: row;
 }
 
+h3, h4{
+  color: rgb(135, 148, 167);
+}
+
+button{
+  background-color:#E0E5EC;
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+  border-radius: .5rem;
+  height: 2rem;
+  border: none;
+  font-size:1rem;
+
+}
+
+.button{
+  text-decoration: none;
+  color: rgb(102, 111, 126);
+  padding: 1rem;
+}
