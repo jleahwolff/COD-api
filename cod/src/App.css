@@ -1,38 +1,104 @@
 .App {
   text-align: center;
+  background-color:white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.title{
   flex-direction: column;
-  align-items: center;
+  width: 30vw;
+  background-color:#E0E5EC;
+  padding:2rem;
+}
+
+.dash-title{
+  display: flex;
+  justify-content: start;
+  flex-direction:row;
+}
+
+.bold{
+  font-weight: 700;
+  text-align: left;
+  color: rgb(65, 71, 82);
+  margin-bottom: .2rem;
+}
+
+.highlight{
+  color: rgb(167, 89, 128);
+}
+
+.acct-title{
+  display: flex;
+  justify-content: space-between;
+  flex-direction:row;
+  width: 90%;
+  align-items:center;
+  margin-bottom: 1rem;
+}
+
+.blue-bold{
+  color:rgb(75, 82, 119);
+  font-weight: 700;
+}
+
+.acct-card{
+  background-color:#E0E5EC;
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+  border-radius: .5rem;
+  width: 90%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: .5rem;
+  margin-bottom: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.all-stats{
+  display:flex;
+  justify-content: space-evenly;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headers{
+  color: rgb(102, 111, 126);
+  font-size: 1.2rem;
+  flex-direction: row;
+  font-weight: 500;
+  line-height: .5rem;
+}
+
+h3{
+  color: rgb(102, 111, 126);
+  font-weight: 500;
+}
+
+h4{
+  color: rgb(135, 148, 167);
+  font-weight: 500;
+}
+
+button{
+  background-color:#E0E5EC;
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+  border-radius: .5rem;
+  height: 2rem;
+  border: none;
+  font-size:1rem;
+
+}
+
+.button{
+  text-decoration: none;
+  color: rgb(102, 111, 126);
+  padding: 1rem;
+}
+
+.icon{
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+  font-size: 5rem;
+  border-radius: 5rem;
+  width:25%;
+  margin: 1.2rem;
+  align-items: center;
+  margin: 0 auto;
+  border: solid .1rem lightcyan;
 }
